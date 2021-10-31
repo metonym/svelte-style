@@ -6,7 +6,7 @@
 
 <!-- REPO_URL -->
 
-`svelte-style` provides style utilities as Svelte actions as an alternative to writing CSS.
+`svelte-style` provides Svelte actions that conditionally apply styles as an alternative to writing CSS.
 
 Try it in the [Svelte REPL](https://svelte.dev/repl/f759197ad49348b1bb4e181e735e08bc).
 
@@ -34,7 +34,7 @@ npm i -D svelte-style
 pnpm i -D svelte-style
 ```
 
-## Usage
+## Available actions
 
 ### Visually hidden
 
