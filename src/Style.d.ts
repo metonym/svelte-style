@@ -1,10 +1,10 @@
 export class Style {
   node: HTMLElement;
   enabled: boolean;
-  cached: null | string;
-  styles: string;
+  initialStyle: null | string;
+  newStyle: string;
 
-  constructor(node: HTMLElement, enabled: boolean, styles: string);
+  constructor(node: HTMLElement, enabled: boolean, newStyle: string);
 
   public init(): {
     update: (enabled?: boolean) => void;
